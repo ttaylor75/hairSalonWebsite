@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+#logo {
+  height: 75px;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: darkgrey;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.faded {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(8, 100, 112, 0.5);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  width: 50%;
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+nav > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;  
+}
+
+nav > a:hover {
+  font-size: 1.2em;
+}
