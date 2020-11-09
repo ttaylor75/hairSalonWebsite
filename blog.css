@@ -43,3 +43,43 @@ nav >a {
 nav > a:hover {
   font-size: 1.2em;
 }
+
+a {
+  text-decoration: none;
+}
+
+.blogText a {
+  color: darkgrey;
+}
+
+.blogText a:visited {
+  color: darkgrey;
+}
+
+h3 {
+  text-align: center;
+}
+
+.blogText {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: darkgrey
+}
+
+.bottomBar {
+  height: 50px;
+  background-color: rgba(8, 100, 112, 0.5);
+}
+
+@media (max-width: 767.98px) {
+  .blogText {
+    flex-direction: column;
+  }
+  #shave {
+    width: 70%;
+  }
+}
